@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>나만의 웹페이지 포트폴리오 두번째</title>
+<style>
+ul{ 
+    margin-left: 250px;
+   }
+ul li{
+      list-style : none;
+      float : left;
+      }
+ul li>a{ 
+         display : inline-block;
+         width:100px;
+         height:40px;
+          text-decoration:none;
+         }
+.photo{
+         height:240px;
+         width: 180px;
+         border-radius: 100px;
+         background-image:url(./didi.jpg);
+         background-size: contain;
+         margin: 120px 0px 50px 350px;
+         position: absolute;
+         }
+a:hover{
+          color: lightpink;
+          }
+p{
+   position: absolute;
+   margin: 450px 0px 0px 270px;
+   }
+
+
+</style>
+</head>
+<body>
+<!-- 인라인 블럭은 세로가 아니라 가로로도 변할 수 있는-->
+<!-- 콜론이랑 세미콜론 차이 : 구분과 끝났다-->
+<!-- 클래스는 이름을 지어주는 것, ""꼭 써줘야 함-->
+<!-- 주석은 보통 body안에서 쓴다, css는 css전용 주석이 있음-->
+<!-- /* */ css전용 주석이에요-->
+<div>
+<ul> <!--ul태그는 차례대로 나오는데 숫자 없이-->
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./page two2.html">About me</a></li>
+    <div>
+    <li><a href="./page three.html">Plan</a></li>
+    </div>
+</ul>
+</div>
+
+<div class="photo">
+</div>
+
+<p> <!-- p태그는 단락태그-->
+안녕하세요. 저만의 웹페이지예요.
+<br><!--한줄 뛰어쓰기 태그예요. 닫는 태그를 쓰지 않아도 됩니다.-->
+웹페이지 만드는 것도 익혀서 여러군데 써먹고 싶어요! 
+<br> 아직 배울게 많네요. 점점 발전하는 페이지가 될 거예요.
+</p>
+
+</body>
+</html>
